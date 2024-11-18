@@ -2,7 +2,7 @@
 //
 //use Illuminate\Support\Str;
 //
-//return [
+return [
 //
 //    /*
 //    |--------------------------------------------------------------------------
@@ -180,11 +180,10 @@
 //    | value of the cookie and the cookie will only be accessible through
 //    | the HTTP protocol. It's unlikely you should disable this option.
 //    |
-//    */
-//
-//    'http_only' => env('SESSION_HTTP_ONLY', true),
-//
-//    /*
+
+
+    'http_only' => env('SESSION_HTTP_ONLY', true),
+
 //    |--------------------------------------------------------------------------
 //    | Same-Site Cookies
 //    |--------------------------------------------------------------------------
@@ -214,4 +213,4 @@
 //
 //    'partitioned' => env('SESSION_PARTITIONED_COOKIE', false),
 //
-//];
+];
