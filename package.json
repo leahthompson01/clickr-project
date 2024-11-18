@@ -5,7 +5,8 @@
         "build": "tsc && vite build",
         "dev": "vite",
         "lint": "eslint resources/js --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore --fix",
-        "start": "vite"
+        "start": "serve ./public/build",
+        "preview": "vite preview --port 8080"
     },
     "devDependencies": {
         "@headlessui/react": "^2.2.0",
@@ -38,6 +39,7 @@
     },
     "dependencies": {
         "@heroicons/react": "^2.1.5",
-        "clsx": "^2.1.1"
+        "clsx": "^2.1.1",
+        "serve": "^14.2.0"
     }
 }
